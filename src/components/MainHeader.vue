@@ -1,6 +1,6 @@
 <template>
   <header class = 'header'>
-    Cabeça
+    Title
   </header>
 </template>
 
