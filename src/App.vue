@@ -42,7 +42,7 @@ export default {
       lastName: "Snow",
       showName: true,
       showLevel: true,
-      accessLevel: "admin", // Exemplo de nível de acesso
+      accessLevel: "admin",
       userImgSrc: "https://placehold.co/300x200?text=Hello+World",
       userImgAlt: "Jon Snow",
       todos: [
@@ -104,25 +104,27 @@ export default {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .section {
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .name-section {
-  background-color: #e3f2fd; /* Light blue background */
+  background-color: #f9f9f9;
 }
 
 .image-section img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .level-section {
@@ -133,32 +135,30 @@ export default {
   font-weight: bold;
   padding: 10px;
   border-radius: 5px;
+  color: #fff;
 }
 
 .admin-level {
-  background-color: #d32f2f; /* Red background */
-  color: #ffffff;
+  background-color: #007bff; /* Blue background */
 }
 
 .marketing-level {
-  background-color: #1976d2; /* Blue background */
-  color: #ffffff;
+  background-color: #17a2b8; /* Teal background */
 }
 
 .user-level {
-  background-color: #388e3c; /* Green background */
-  color: #ffffff;
+  background-color: #28a745; /* Green background */
 }
 
 .todo-item {
   display: flex;
   align-items: center;
-  background-color: #f7f7f7; /* Light gray background */
+  background-color: #f9f9f9;
   padding: 10px;
   margin-bottom: 10px;
-  border-left: 6px solid #0b33a1; /* Blue border left */
+  border-left: 6px solid #007bff; /* Blue border left */
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .todo-img img {
@@ -166,17 +166,18 @@ export default {
   height: 40px;
   margin-right: 10px;
   border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .todo-text {
   font-size: 16px;
-  color: #333333;
+  color: #333;
   display: flex;
   align-items: center;
 }
 
 .completed-icon {
-  color: #388e3c; /* Green color for completed tasks */
+  color: #28a745; /* Green color for completed tasks */
   margin-left: 10px;
 }
 </style>
